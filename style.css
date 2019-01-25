@@ -38,6 +38,28 @@ header nav a{
   color: black;
 }
 
+/*universal rules*/
+.image-content{
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  height: 300px;
+  text-align: center;
+}
+
+p.narrative{
+  font-style: Georgia;
+  font-size: 17px;
+  padding-left: 2px;
+}
+
+div{
+border: 1px solid black;
+}
+
 /*Main Content*/
 .content{
   display: flex;
@@ -49,15 +71,6 @@ header nav a{
   padding-top: 116px;
 }
 
-p.narrative{
-  font-style: Georgia;
-  font-size: 17px;
-}
-
-div{
-border: 1px solid black;
-}
-
 .column{
   display: flex;
   flex-direction: column;
@@ -66,30 +79,25 @@ border: 1px solid black;
 
 .lead-story .image-content{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
-  font-family: Georgia;
-  font-weight: bold;
+  width: 630px;
   font-size: 40px;
-  color: white;
-  padding: 40px 0px 40px 10px
+  text-align: left;
+  margin-top: 0;
+  font-size: 40px;
 }
 
 .cookie {
   width: 100%;
 }
 
+/*column large*/
 .column.large{
    width: 630px;
 }
 
 
 .fall-cancelled.image-content{
-  display:flex;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
-  height: 80px;
   text-align: center;
 }
 
@@ -97,30 +105,19 @@ border: 1px solid black;
   display:flex;
   font-family: Georgia;
   font-weight: bold;
-  font-size: 30px;
-  color: white;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
-  height: 80px;
-  text-align: center;
 }
 
-
+/*column medium*/
 .column.medium{
   width: 300px;
 }
 
 .cat-ceo.image-content{
-  display: flex;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  height: auto;
-  text-align: center;
-  padding: 40px 0px 40px 0px;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
 }
 
+/*column samll*/
 .column.small{
   width: 240px;
   display: flex;
